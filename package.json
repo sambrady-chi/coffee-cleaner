@@ -1,6 +1,6 @@
 {
   "name": "coffee-cleanup",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Command Line Tools to replace coffeescript files with javascript files using modern React syntax",
   "main": "index.js",
   "bin": {
