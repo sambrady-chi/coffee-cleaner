@@ -3,8 +3,11 @@
   "version": "1.0.1",
   "description": "Command Line Tools to replace coffeescript files with javascript files using modern React syntax",
   "main": "index.js",
+  "bin": {
+    "coffeecleanup": "./index.js"
+  },
   "scripts": {
-    "test": "NODE_ENV=test jest"
+    "test": ""
   },
   "repository": {
     "type": "git",
@@ -21,5 +24,11 @@
   "bugs": {
     "url": "https://github.com/sambrady-chi/coffee-cleanup/issues"
   },
-  "homepage": "https://github.com/sambrady-chi/coffee-cleanup#readme"
+  "homepage": "https://github.com/sambrady-chi/coffee-cleanup#readme",
+  "dependencies": {
+    "cjs-to-es6": "^2.0.1",
+    "commander": "^11.1.0",
+    "decaffeinate": "^8.1.4",
+    "jscodeshift": "^0.15.1"
+  }
 }
